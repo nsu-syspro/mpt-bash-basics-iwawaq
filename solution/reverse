@@ -1,6 +1,6 @@
 lines=()
 length=0
-while read line; do
+while read -r line; do
   lines+=("$line")
   ((length+=1))
 done

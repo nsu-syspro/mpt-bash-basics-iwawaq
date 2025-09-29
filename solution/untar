@@ -1,5 +1,4 @@
 chmod +x solution/untar
 archive="$1"
 unpack_dir="${archive}.unpacked"
-mkdir "$unpack_dir"
 tar -xf "$archive" -C "$unpack_dir"

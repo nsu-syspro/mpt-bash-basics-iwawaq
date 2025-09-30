@@ -1,3 +1,4 @@
+chmod +x solution/fizzbuzz.sh
 n="$1"
 for ((i = 1; i <= n; i++)); do
   if ((i % 3 == 0)) && ((i % 5 == 0)); then

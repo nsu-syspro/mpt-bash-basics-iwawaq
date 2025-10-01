@@ -1,3 +1,4 @@
+chmod +x solution/addsuffix
 suffix="$1"
 shift
 for file in "$@"; do
